@@ -3,9 +3,8 @@
     "@apollo/server": "^4.9.1",
     "graphql": "^16.8.0"
   },
-  "name": "graphql-server-example",
+  "name": "apollo-server-example",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "compile": "tsc",
     "start": "npm run compile && node ./dist/index.js"
