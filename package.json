@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@apollo/server": "^4.9.1",
+    "graphql": "^16.8.0"
+  },
+  "name": "graphql-server-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.5.4",
+    "typescript": "^5.1.6"
+  }
+}
